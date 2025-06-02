@@ -1,5 +1,5 @@
 """
-WSGI config for embroidery_digitizer project.
+WSGI config for web-template project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'embroidery_digitizer.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'web-template.settings')
 
 application = get_wsgi_application()
