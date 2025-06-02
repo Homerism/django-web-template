@@ -1,1 +1,1 @@
-# mbroidery-digitizer-webapp
+# django-web-template
